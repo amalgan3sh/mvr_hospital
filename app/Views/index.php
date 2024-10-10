@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Xcare Demo1 – Health & Medical HTML Template</title>
+		<title>MVR</title>
 		<meta name="robots" content="noindex, follow">
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -48,133 +48,74 @@
 			<div class="container-fluid">
 				<div class="pbmit-header-content d-flex justify-content-between align-items-center">
 					<div class="d-flex justify-content-between align-items-center">
-						<div class="site-navigation">
-							<nav class="main-menu navbar-expand-xl navbar-light">
-								<div class="navbar-header">
-									<!-- Toggle Button --> 
-									<button class="navbar-toggler" type="button">
-										<i class="pbmit-base-icon-menu-1"></i>
-									</button>
+					<div class="site-navigation">
+						<nav class="main-menu navbar-expand-xl navbar-light">
+							<div class="navbar-header">
+								<!-- Toggle Button --> 
+								<button class="navbar-toggler" type="button">
+									<i class="pbmit-base-icon-menu-1"></i>
+								</button>
+							</div>
+							<div class="pbmit-mobile-menu-bg"></div>
+							<div class="collapse navbar-collapse clearfix show" id="pbmit-menu">
+								<div class="pbmit-menu-wrap">
+									<span class="closepanel">
+										<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="20.163" height="20.163" viewBox="0 0 26.163 26.163">
+											<rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
+											<rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
+										</svg>
+									</span>
+									<ul class="navigation clearfix">
+										<li class="dropdown active">
+											<a href="index.html">Home</a>
+										</li>
+										<li class="dropdown">
+											<a href="#">About Us</a>
+											<ul>
+												<li><a href="about-us.html">Our Mission</a></li>
+												<li><a href="our-history.html">Our History</a></li>
+												<li><a href="leadership.html">Leadership</a></li>
+											</ul>
+										</li>
+										<li class="dropdown">
+											<a href="#">Facilities</a>
+											<ul>
+												<li><a href="emergency.html">Emergency & Trauma Care</a></li>
+												<li><a href="icu.html">ICU & MICU</a></li>
+												<li><a href="specialities.html">Specialities</a></li>
+											</ul>
+										</li>
+										<li class="dropdown">
+											<a href="#">Services</a>
+											<ul>
+												<li><a href="oncology.html">Oncology Care</a></li>
+												<li><a href="neurology.html">Neurology Clinic</a></li>
+												<li><a href="cardiac-care.html">Cardiac Care</a></li>
+												<li><a href="fertility.html">Fertility Clinic</a></li>
+											</ul>
+										</li>
+										<li class="dropdown">
+											<a href="#">Our Team</a>
+											<ul>
+												<li><a href="doctors.html">Doctors</a></li>
+												<li><a href="nurses.html">Nursing Staff</a></li>
+											</ul>
+										</li>
+										<li class="dropdown">
+											<a href="#">Blog</a>
+										</li>
+										<li><a href="contact-us.html">Contact Us</a></li>
+									</ul>
 								</div>
-								<div class="pbmit-mobile-menu-bg"></div>
-								<div class="collapse navbar-collapse clearfix show" id="pbmit-menu">
-									<div class="pbmit-menu-wrap">
-										<span class="closepanel">
-											<svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="20.163" height="20.163" viewBox="0 0 26.163 26.163">
-												<rect width="36" height="1" transform="translate(0.707) rotate(45)"></rect>
-												<rect width="36" height="1" transform="translate(0 25.456) rotate(-45)"></rect>
-											</svg>
-										</span>
-										<ul class="navigation clearfix">
-											<li class="dropdown active">
-												<a href="index.html">Home</a>
-												<ul>
-													<li class="active"><a href="index.html">Homepage 01</a></li>
-													<li><a href="homepage-2.html">Homepage 02</a></li>
-													<li><a href="homepage-3.html">Homepage 03</a></li>
-													<li><a href="homepage-4.html">Homepage 04</a></li>
-													<li><a href="homepage-5.html">Homepage 05</a></li>
-													<li><a href="homepage-6.html">Homepage 06</a></li>
-													<li><a href="homepage-7.html">Homepage 07</a></li>
-													<li><a href="homepage-8.html">Homepage 08</a></li>
-													<li><a href="homepage-9.html">Homepage 09</a></li>
-													<li><a href="homepage-10.html">Homepage 10</a></li>
-													<li><a href="homepage-11.html">Homepage 11</a></li>
-													<li><a href="homepage-12.html">Homepage 12</a></li>
-												</ul>
-											</li>
-											<li class="dropdown">
-												<a href="#">Pages</a>
-												<ul>
-													<li><a href="about-us.html">About Us</a></li>
-													<li><a href="our-history.html">Our History</a></li>
-													<li><a href="classes.html">Classes</a></li>
-													<li><a href="our-team-member.html">Our Team Member</a></li>
-													<li><a href="team-single-detail.html">Team Single Detail</a></li>
-													<li><a href="make-appointments-01.html">Make Appointments 01</a></li>
-													<li><a href="faq.html">Faq</a></li>
-												</ul>
-											</li>
-											<li class="dropdown">
-												<a href="#">Services</a>
-												<ul>
-													<li><a href="service-details.html">Service Detail</a></li>
-												</ul>
-											</li>
-											<li class="dropdown">
-												<a href="#">Portfolio</a>
-												<ul>
-													<li class="dropdown">
-														<a href="#">Masonary View</a>
-														<ul>
-															<li><a href="masonry-grid-col-2.html">Grid Col-2</a></li>
-															<li><a href="masonry-grid-col-3.html">Grid Col-3</a></li>
-															<li><a href="masonry-grid-col-4.html">Grid Col-4</a></li>
-															<li><a href="masonry-grid-col-wide.html">Grid Col-Wide</a></li>
-														</ul>
-													</li>
-													<li class="dropdown">
-														<a href="#">Grid View</a>
-														<ul>
-															<li><a href="portfolio-grid-col-2.html">Grid Col-2</a></li>
-															<li><a href="portfolio-grid-col-3.html">Grid Col-3</a></li>
-															<li><a href="portfolio-grid-col-4.html">Grid Col-4</a></li>
-															<li><a href="portfolio-grid-no-gap.html">Grid No Gap</a></li>
-														</ul>
-													</li>
-													<li class="dropdown">
-														<a href="#">Sortable View</a>
-														<ul>
-															<li><a href="portfolio-sortable-grid-col-2.html">Grid Col-2</a></li>
-															<li><a href="portfolio-sortable-grid-col-3.html">Grid Col-3</a></li>
-															<li><a href="portfolio-sortable-grid-col-4.html">Grid Col-4</a></li>
-														</ul>
-													</li>
-													<li class="dropdown">
-														<a href="#">Single Detail Style</a>
-														<ul>
-															<li><a href="single-detail-style-01.html">Single Detail Style 01</a></li>
-															<li><a href="single-detail-style-02.html">Single Detail Style 02</a></li>
-														</ul>
-													</li>
-												</ul>
-											</li>
-											<li class="dropdown">
-												<a href="#">Blog</a>
-												<ul>
-													<li class="dropdown">
-														<a href="#">Grid View</a>
-														<ul>
-															<li><a href="blog-grid-2.html">Grid Col 2</a></li>
-															<li><a href="blog-grid-3.html">Grid Col-3</a></li>
-															<li><a href="blog-grid-4.html">Grid Col-4</a></li>
-															<li><a href="blog-grid-wide.html">Grid Col Wide</a></li>
-														</ul>
-													</li>
-													<li class="dropdown">
-														<a href="#">Sortable View</a>
-														<ul>
-															<li><a href="blog-sortable-col-2.html">Sortable Col 2</a></li>
-															<li><a href="blog-sortable-col-3.html">Sortable Col 3</a></li>
-															<li><a href="blog-sortable-col-4.html">Sortable Col 4</a></li>
-														</ul>
-													</li>
-													<li><a href="blog-classic.html">Blog Classic</a></li>
-													<li><a href="blog-details.html">Blog Detail</a></li>
-												</ul>
-											</li>
-											<li><a href="contact-us.html">Contact Us</a></li>
-										</ul>
-									</div>
-								</div>
-							</nav>
-						</div>
+							</div>
+						</nav>
+					</div>
 					</div>
 					<div class="pbmit-logo-menuarea d-flex align-items-center">
 						<div class="site-branding">
 							<h1 class="site-title">
 								<a href="index.html">
-									<img class="pbmit-sticky-logo" src="images/logo.svg" alt="Yoge">
+									<img class="pbmit-sticky-logo" src="images/mvr_logo.svg" alt="Yoge">
 								</a>
 							</h1>
 						</div>
@@ -182,8 +123,8 @@
 					<div class="pbmit-right-box d-flex align-items-center">
 						<div class="pbmit-button-box">
 							<div class="pbmit-header-button">
-								<a href="tel:+1(212)255-511">
-									<span class="pbmit-header-button-text-1">+1(212)255-511</span>		
+								<a href="tel:+91 77367 64443">
+									<span class="pbmit-header-button-text-1">+91 77367 64443</span>		
 								</a>
 							</div>
 						</div>
@@ -226,140 +167,140 @@
 			</div>
 			<div class="pbmit-slider-area pbmit-slider-one">
 				<div class="swiper-slider" data-autoplay="true" data-loop="true" data-dots="true" data-arrows="false" data-columns="1" data-margin="0" data-effect="fade">
-					<div class="swiper-wrapper">
-						<!-- Slide1 -->
-						<div class="swiper-slide">
-							<div class="pbmit-slider-item">
-								<div class="pbmit-slider-bg" style="background-image: url(images/slider-img/demo01-slide-01.jpg);"></div>
-								<div class="container">
-									<div class="row text-center">
-										<div class="col-md-12">
-											<div class="pbmit-slider-content">
-												<h5 class="pbmit-sub-title transform-top transform-delay-1">Quality Care Made Easy </h5>
-												<h2 class="pbmit-title transform-bottom transform-delay-2">Best Healthcare <br> <strong>Experience</strong> </h2>
-												<div class="pbmit-button transform-bottom transform-delay-3">
-													<a class="pbmit-btn pbmit-btn-outline" href="about-us.html">
-														<span class="pbmit-button-content-wrapper">
-															<span class="pbmit-button-icon pbmit-align-icon-right">
-																<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
-																	<title>black-arrow</title>
-																	<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																</svg>
-															</span>
-															<span class="pbmit-button-text">read more</span>
-														</span>
-													</a>
-													<a class="pbmit-btn" href="contact-us.html">
-														<span class="pbmit-button-content-wrapper">
-															<span class="pbmit-button-icon pbmit-align-icon-right">
-																<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
-																	<title>black-arrow</title>
-																	<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																</svg>
-															</span>
-															<span class="pbmit-button-text">contact us</span>
-														</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Slide2 -->
-						<div class="swiper-slide">
-							<div class="pbmit-slider-item">
-								<div class="pbmit-slider-bg" style="background-image: url(images/slider-img/demo01-slide-02.jpg);"></div>
-								<div class="container">
-									<div class="row text-center">
-										<div class="col-md-12">
-											<div class="pbmit-slider-content">
-												<h5 class="pbmit-sub-title transform-top transform-delay-1">Tradition. Quality. Progress.</h5>
-												<h2 class="pbmit-title transform-bottom transform-delay-2">Driving Innovation <br> <strong>To Wellness</strong> </h2>
-												<div class="pbmit-button transform-bottom transform-delay-3">
-													<a class="pbmit-btn pbmit-btn-outline" href="about-us.html">
-														<span class="pbmit-button-content-wrapper">
-															<span class="pbmit-button-icon pbmit-align-icon-right">
-																<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
-																	<title>black-arrow</title>
-																	<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																</svg>
-															</span>
-															<span class="pbmit-button-text">read more</span>
-														</span>
-													</a>
-													<a class="pbmit-btn" href="contact-us.html">
-														<span class="pbmit-button-content-wrapper">
-															<span class="pbmit-button-icon pbmit-align-icon-right">
-																<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
-																	<title>black-arrow</title>
-																	<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																</svg>
-															</span>
-															<span class="pbmit-button-text">contact us</span>
-														</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- Slide3 -->
-						<div class="swiper-slide">
-							<div class="pbmit-slider-item">
-								<div class="pbmit-slider-bg" style="background-image: url(images/slider-img/demo01-slide-03.jpg);"></div>
-								<div class="container">
-									<div class="row text-center">
-										<div class="col-md-12">
-											<div class="pbmit-slider-content">
-												<h5 class="pbmit-sub-title transform-top transform-delay-1">The Future of Healthcare</h5>
-												<h2 class="pbmit-title transform-bottom transform-delay-2">Doctors Obsolete <br> <strong>Healthcare</strong> </h2>
-												<div class="pbmit-button transform-bottom transform-delay-3">
-													<a class="pbmit-btn pbmit-btn-outline" href="about-us.html">
-														<span class="pbmit-button-content-wrapper">
-															<span class="pbmit-button-icon pbmit-align-icon-right">
-																<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
-																	<title>black-arrow</title>
-																	<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																</svg>
-															</span>
-															<span class="pbmit-button-text">read more</span>
-														</span>
-													</a>
-													<a class="pbmit-btn" href="contact-us.html">
-														<span class="pbmit-button-content-wrapper">
-															<span class="pbmit-button-icon pbmit-align-icon-right">
-																<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
-																	<title>black-arrow</title>
-																	<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																	<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-																</svg>
-															</span>
-															<span class="pbmit-button-text">contact us</span>
-														</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="swiper-wrapper">
+    <!-- Slide1 -->
+    <div class="swiper-slide">
+        <div class="pbmit-slider-item">
+            <div class="pbmit-slider-bg" style="background-image: url(images/slider-img/demo01-slide-01.jpg);"></div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="pbmit-slider-content">
+                            <h5 class="pbmit-sub-title transform-top transform-delay-1">Affordable and Quality Care</h5>
+                            <h2 class="pbmit-title transform-bottom transform-delay-2">Leading Healthcare <br> <strong>For Everyone</strong> </h2>
+                            <div class="pbmit-button transform-bottom transform-delay-3">
+                                <a class="pbmit-btn pbmit-btn-outline" href="about-us.html">
+                                    <span class="pbmit-button-content-wrapper">
+                                        <span class="pbmit-button-icon pbmit-align-icon-right">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
+                                                <title>black-arrow</title>
+                                                <path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="pbmit-button-text">read more</span>
+                                    </span>
+                                </a>
+                                <a class="pbmit-btn" href="contact-us.html">
+                                    <span class="pbmit-button-content-wrapper">
+                                        <span class="pbmit-button-icon pbmit-align-icon-right">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
+                                                <title>black-arrow</title>
+                                                <path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="pbmit-button-text">contact us</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Slide2 -->
+    <div class="swiper-slide">
+        <div class="pbmit-slider-item">
+            <div class="pbmit-slider-bg" style="background-image: url(images/slider-img/demo01-slide-02.jpg);"></div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="pbmit-slider-content">
+                            <h5 class="pbmit-sub-title transform-top transform-delay-1">Innovating Healthcare Solutions</h5>
+                            <h2 class="pbmit-title transform-bottom transform-delay-2">Compassionate Care <br> <strong>For Every Patient</strong> </h2>
+                            <div class="pbmit-button transform-bottom transform-delay-3">
+                                <a class="pbmit-btn pbmit-btn-outline" href="about-us.html">
+                                    <span class="pbmit-button-content-wrapper">
+                                        <span class="pbmit-button-icon pbmit-align-icon-right">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
+                                                <title>black-arrow</title>
+                                                <path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="pbmit-button-text">read more</span>
+                                    </span>
+                                </a>
+                                <a class="pbmit-btn" href="contact-us.html">
+                                    <span class="pbmit-button-content-wrapper">
+                                        <span class="pbmit-button-icon pbmit-align-icon-right">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
+                                                <title>black-arrow</title>
+                                                <path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="pbmit-button-text">contact us</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Slide3 -->
+    <div class="swiper-slide">
+        <div class="pbmit-slider-item">
+            <div class="pbmit-slider-bg" style="background-image: url(images/slider-img/demo01-slide-03.jpg);"></div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="pbmit-slider-content">
+                            <h5 class="pbmit-sub-title transform-top transform-delay-1">Sustainable and Innovative Healthcare</h5>
+                            <h2 class="pbmit-title transform-bottom transform-delay-2">Building a Better <br> <strong>Healthcare Future</strong> </h2>
+                            <div class="pbmit-button transform-bottom transform-delay-3">
+                                <a class="pbmit-btn pbmit-btn-outline" href="about-us.html">
+                                    <span class="pbmit-button-content-wrapper">
+                                        <span class="pbmit-button-icon pbmit-align-icon-right">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
+                                                <title>black-arrow</title>
+                                                <path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="pbmit-button-text">read more</span>
+                                    </span>
+                                </a>
+                                <a class="pbmit-btn" href="contact-us.html">
+                                    <span class="pbmit-button-content-wrapper">
+                                        <span class="pbmit-button-icon pbmit-align-icon-right">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
+                                                <title>black-arrow</title>
+                                                <path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                                <path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="pbmit-button-text">contact us</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 				</div>
 			</div>
 		</header>
@@ -379,28 +320,20 @@
 								</div>
 							</div>
 							<div class="inner-box_style inner-box_1">
-								<div class="pbmit-heading_title">
-									<h5>Schedule Hours</h5>	
-								</div>
-								<ul class="pbmit-timelist-list">
-									<li>
-										<span class="pbmit-timelist-li-title">Monday – Friday</span>
-										<span class="pbmit-timelist-li-value">08:00 - 18:00</span>
-									</li>
-									<li>
-										<span class="pbmit-timelist-li-title">Saturday</span>
-										<span class="pbmit-timelist-li-value">09:30 - 17:30</span>
-									</li>
-									<li>
-										<span class="pbmit-timelist-li-title">Sunday</span>
-										<span class="pbmit-timelist-li-value">09:00 - 15:30</span>
-									</li>
-									<li>
-										<span class="pbmit-timelist-li-title">24/7 Service Available</span>
-										<span class="pbmit-timelist-li-value"></span>
-									</li>
-								</ul>
-							</div>
+    <div class="pbmit-heading_title">
+        <h5>Schedule Hours</h5>    
+    </div>
+    <ul class="pbmit-timelist-list">
+        <li>
+            <span class="pbmit-timelist-li-title">Monday – Sunday</span>
+            <span class="pbmit-timelist-li-value">Open 24 Hours</span>
+        </li>
+        <li>
+            <span class="pbmit-timelist-li-title">24/7 Service Available</span>
+            <span class="pbmit-timelist-li-value"></span>
+        </li>
+    </ul>
+</div>
 						</div>
 						<div class="col-md-6 col-lg-4 position-relative">
 							<div class="pbmit-widget_icon">
@@ -409,26 +342,28 @@
 								</div>
 							</div>
 							<div class="inner-box_style inner-box_2">
-								<div class="pbmit-heading_title">
-									<h5>Our Location </h5>	
-								</div>
-								<div class="pbmit-text_aditor">
-									Search our locations to find the one nearest you Get the answers and assurance you deserve with accuracy you can trust.
-								</div>
-								<a class="pbmit-btn pbmit-btn-outline" href="contact-us.html">
-									<span class="pbmit-button-content-wrapper">
-										<span class="pbmit-button-icon pbmit-align-icon-right">
-											<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
-												<title>black-arrow</title>
-												<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-												<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-												<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-											</svg>
-										</span>
-										<span class="pbmit-button-text">Get Directions</span>
-									</span>
-								</a>
-							</div>
+    <div class="pbmit-heading_title">
+        <h5>Our Location</h5>    
+    </div>
+    <div class="pbmit-text_aditor">
+        MVR Multi Specialty Hospital, Bakkalam, Kannur, Kerala, India. 
+        We are committed to providing accessible healthcare services for the community.
+        Visit us for reliable and quality care 24/7.
+    </div>
+    <a class="pbmit-btn pbmit-btn-outline" href="contact-us.html">
+        <span class="pbmit-button-content-wrapper">
+            <span class="pbmit-button-icon pbmit-align-icon-right">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
+                    <title>black-arrow</title>
+                    <path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                    <path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                    <path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                </svg>
+            </span>
+            <span class="pbmit-button-text">Get Directions</span>
+        </span>
+    </a>
+</div>
 						</div>
 						<div class="col-md-6 col-lg-4 position-relative">
 							<div class="pbmit-widget_icon">
@@ -437,31 +372,31 @@
 								</div>
 							</div>
 							<div class="inner-box_style inner-box_3">
-								<div class="pbmit-bg_overlay"></div>
-								<div class="pbmit-heading_title">
-									<h5>Our Location </h5>	
-								</div>
-								<div class="pbmit-text_aditor">
-									Emergency Medical Services, more commonly known as EMS, is a system that responds
-								</div>
-								<div class="pbmit-ihbox-style-19">
-									<div class="pbmit-ihbox-box">
-										<div class="pbmit-ihbox-icon">
-											<div class="pbmit-ihbox-icon-wrapper">
-												<div class="pbmit-icon-wrapper pbmit-icon-type-icon">
-													<i class="pbmit-xcare-icon pbmit-xcare-icon-live-chat"></i>
-												</div>
-											</div>
-										</div>
-										<div class="pbmit-ihbox-contents">
-											<h4 class="pbmit-element-heading">
-												Emergency Cases
-											</h4>
-											<h2 class="pbmit-element-title">1-800-123-4560</h2>
-										</div>
-									</div>
-								</div>
-							</div>
+    <div class="pbmit-bg_overlay"></div>
+    <div class="pbmit-heading_title">
+        <h5>Emergency Medical Services</h5>    
+    </div>
+    <div class="pbmit-text_aditor">
+        MVR Multi Specialty Hospital provides 24/7 Emergency Medical Services (EMS), ensuring immediate care for urgent medical needs. Our team is always prepared to respond promptly.
+    </div>
+    <div class="pbmit-ihbox-style-19">
+        <div class="pbmit-ihbox-box">
+            <div class="pbmit-ihbox-icon">
+                <div class="pbmit-ihbox-icon-wrapper">
+                    <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
+                        <i class="pbmit-xcare-icon pbmit-xcare-icon-live-chat"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pbmit-ihbox-contents">
+                <h4 class="pbmit-element-heading">
+                    Emergency Cases
+                </h4>
+                <h2 class="pbmit-element-title">+91 77367 64443</h2>
+            </div>
+        </div>
+    </div>
+</div>
 						</div>
 					</div>
 				</div>
@@ -479,121 +414,121 @@
 								</div>
 							</div>
 							<div class="col-md-7 about-us-two_col2 pbmit-sticky-col2-special">
-								<div class="about-us-two_rightbox">
-									<div class="pbmit-heading-subheading animation-style2">
-										<h4 class="pbmit-subtitle">About Us</h4>
-										<h2 class="pbmit-title">The Heart and Science of Medic Test</h2>
-									</div>
-									<div class="about-us-two_innerbox">
-										<div>Despite a robust ecosystem of its own, does not exist in isolation. It integrates with other services and systems intended to enhance the community’s health and emergency management and public safety.</div>
-										<div class="pbmit-ihbox-style-12">
-											<div class="pbmit-ihbox-box d-flex align-items-center">
-												<div class="pbmit-ihbox-icon">
-													<div class="pbmit-ihbox-icon-wrapper">
-														<div class="pbmit-icon-wrapper pbmit-icon-type-icon">
-															<i class="pbmit-xcare-icon pbmit-xcare-icon-medicine-1"></i>
-														</div>
-													</div>
-												</div>
-												<div class="pbmit-ihbox-contents">
-													<h2 class="pbmit-element-title">Infection Prevention</h2>
-													<div class="pbmit-heading-desc">This site includes an overview of how infections spread, ways to prevent the spread of infections</div>
-												</div>
-											</div>
-										</div>
-										<div class="pbmit-ihbox-style-12">
-											<div class="pbmit-ihbox-box d-flex align-items-center">
-												<div class="pbmit-ihbox-icon">
-													<div class="pbmit-ihbox-icon-wrapper">
-														<div class="pbmit-icon-wrapper pbmit-icon-type-icon">
-															<i class="pbmit-xcare-icon pbmit-xcare-icon-avatar"></i>
-														</div>
-													</div>
-												</div>
-												<div class="pbmit-ihbox-contents">
-													<h2 class="pbmit-element-title">Preventive Care</h2>
-													<div class="pbmit-heading-desc">Another part of preventive health is learning to recognize changes in your body that may not be normal</div>
-												</div>
-											</div>
-										</div>
-										<div class="img_box">
-											<img src="images/homepage-2/about-img-03.jpg" class="img-fluid" alt="">
-										</div>
-										<div class="progressbar">
-											<span class="progress-label">Cardio-Oncology</span>
-											<div class="progress progress-lg progress-percent-bg">
-												<div class="progress-bar aos-init" data-aos="slide-right"
-													data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out"
-													role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-													style="width:90%">
-													<span class="progress-percent">90%</span>
-												</div>
-											</div>
-										</div>
-										<div class="progressbar">
-											<span class="progress-label">Heart Surgery</span>
-											<div class="progress progress-lg progress-percent-bg">
-												<div class="progress-bar aos-init" data-aos="slide-right"
-													data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out"
-													role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
-													style="width:85%">
-													<span class="progress-percent">85%</span>
-												</div>
-											</div>
-										</div>
-										<h4 class="pbmit-heading_title">Digital Operation</h4>
-										<div>Digital Opration is a technique used for thousands of years to develop awareness of the present moment, It can involve practices to sharpen focus and attention</div>
-										<div class="list-group_box">
-											<div class="row">
-												<div class="col-md-6">
-													<ul class="list-group list-group-borderless">
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="ti-check"></i>
-															</span>
-															<span class="pbmit-icon-list-text">Avoid ultra-processed foods</span>
-														</li>
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="ti-check"></i>
-															</span>
-															<span class="pbmit-icon-list-text">Don’t eat heavily meats</span>
-														</li>
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="ti-check"></i>
-															</span>
-															<span class="pbmit-icon-list-text">Minimize your sugar intake</span>
-														</li>
-													</ul>
-												</div>
-												<div class="col-md-6">
-													<ul class="list-group list-group-borderless">
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="ti-check"></i>
-															</span>
-															<span class="pbmit-icon-list-text">Avoid bright lights before sleep</span>
-														</li>
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="ti-check"></i>
-															</span>
-															<span class="pbmit-icon-list-text">Drink only safe water</span>
-														</li>
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="ti-check"></i>
-															</span>
-															<span class="pbmit-icon-list-text">Avoid harmful use of alcohol</span>
-														</li>
-													</ul>
-												</div>	
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+    <div class="about-us-two_rightbox">
+        <div class="pbmit-heading-subheading animation-style2">
+            <h4 class="pbmit-subtitle">About Us</h4>
+            <h2 class="pbmit-title">Providing Accessible and Quality Healthcare</h2>
+        </div>
+        <div class="about-us-two_innerbox">
+            <div>MVR Multi Specialty Hospital is dedicated to delivering top-quality healthcare services at affordable prices, ensuring the community has access to comprehensive care. We integrate advanced medical practices with a strong focus on holistic well-being, providing an all-inclusive approach to healthcare and emergency management.</div>
+            <div class="pbmit-ihbox-style-12">
+                <div class="pbmit-ihbox-box d-flex align-items-center">
+                    <div class="pbmit-ihbox-icon">
+                        <div class="pbmit-ihbox-icon-wrapper">
+                            <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
+                                <i class="pbmit-xcare-icon pbmit-xcare-icon-medicine-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pbmit-ihbox-contents">
+                        <h2 class="pbmit-element-title">Infection Prevention</h2>
+                        <div class="pbmit-heading-desc">Our infection prevention programs are designed to control and reduce the risk of infections in the hospital, safeguarding patient health.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pbmit-ihbox-style-12">
+                <div class="pbmit-ihbox-box d-flex align-items-center">
+                    <div class="pbmit-ihbox-icon">
+                        <div class="pbmit-ihbox-icon-wrapper">
+                            <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
+                                <i class="pbmit-xcare-icon pbmit-xcare-icon-avatar"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pbmit-ihbox-contents">
+                        <h2 class="pbmit-element-title">Preventive Care</h2>
+                        <div class="pbmit-heading-desc">We focus on preventive healthcare by encouraging patients to adopt healthy lifestyle practices and perform regular check-ups.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="img_box">
+                <img src="images/homepage-2/about-img-03.jpg" class="img-fluid" alt="MVR Healthcare">
+            </div>
+            <div class="progressbar">
+                <span class="progress-label">Cardiology Services</span>
+                <div class="progress progress-lg progress-percent-bg">
+                    <div class="progress-bar aos-init" data-aos="slide-right"
+                        data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out"
+                        role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                        style="width:90%">
+                        <span class="progress-percent">90%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="progressbar">
+                <span class="progress-label">Surgical Procedures</span>
+                <div class="progress progress-lg progress-percent-bg">
+                    <div class="progress-bar aos-init" data-aos="slide-right"
+                        data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-out"
+                        role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                        style="width:85%">
+                        <span class="progress-percent">85%</span>
+                    </div>
+                </div>
+            </div>
+            <h4 class="pbmit-heading_title">Digital Operations</h4>
+            <div>MVR leverages digital technologies to streamline operations and improve patient outcomes. This includes using telemedicine, electronic health records, and digital diagnostic tools.</div>
+            <div class="list-group_box">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-group list-group-borderless">
+                            <li class="list-group-item">
+                                <span class="pbmit-icon-list-icon">
+                                    <i aria-hidden="true" class="ti-check"></i>
+                                </span>
+                                <span class="pbmit-icon-list-text">Promote healthy eating habits</span>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="pbmit-icon-list-icon">
+                                    <i aria-hidden="true" class="ti-check"></i>
+                                </span>
+                                <span class="pbmit-icon-list-text">Reduce intake of processed foods</span>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="pbmit-icon-list-icon">
+                                    <i aria-hidden="true" class="ti-check"></i>
+                                </span>
+                                <span class="pbmit-icon-list-text">Monitor sugar consumption</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-group list-group-borderless">
+                            <li class="list-group-item">
+                                <span class="pbmit-icon-list-icon">
+                                    <i aria-hidden="true" class="ti-check"></i>
+                                </span>
+                                <span class="pbmit-icon-list-text">Practice sleep hygiene</span>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="pbmit-icon-list-icon">
+                                    <i aria-hidden="true" class="ti-check"></i>
+                                </span>
+                                <span class="pbmit-icon-list-text">Consume clean water</span>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="pbmit-icon-list-icon">
+                                    <i aria-hidden="true" class="ti-check"></i>
+                                </span>
+                                <span class="pbmit-icon-list-text">Limit alcohol consumption</span>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 						</div>
 					</div>
 				</div>
@@ -601,280 +536,300 @@
 			<!-- About Us end --> 
 
 			<!-- Marquee Start --> 
-            <section>
-				<div class="container-fluid p-0">
-					<div class="swiper-slider marquee">
-						<div class="swiper-wrapper">
-							<!-- Slide1 -->
-							<div class="swiper-slide">
-								<article class="pbmit-marquee-effect-style-1">
-									<div class="pbmit-tag-wrapper">
-										<h2 class="pbmit-element-title" data-text="Cardiothoracic">
-											Cardiothoracic
-										</h2>
-									</div>
-								</article>
-							</div>
-							<!-- Slide2 -->
-							<div class="swiper-slide">
-								<article class="pbmit-marquee-effect-style-1">
-									<div class="pbmit-tag-wrapper">
-										<h2 class="pbmit-element-title" data-text="Neurosurgery">
-											Neurosurgery
-										</h2>
-									</div>
-								</article>
-							</div>
-							<!-- Slide3 -->
-							<div class="swiper-slide">
-								<article class="pbmit-marquee-effect-style-1">
-									<div class="pbmit-tag-wrapper">
-										<h2 class="pbmit-element-title" data-text="Surgery">
-											Surgery
-										</h2>
-									</div>
-								</article>
-							</div>
-							<!-- Slide4 -->
-							<div class="swiper-slide">
-								<article class="pbmit-marquee-effect-style-1">
-									<div class="pbmit-tag-wrapper">
-										<h2 class="pbmit-element-title" data-text="Healthcare">
-											Healthcare
-										</h2>
-									</div>
-								</article>
-							</div>
-						</div>
-					</div>
-				</div>
-            </section>
-            <!-- Marquee End -->
+<section>
+    <div class="container-fluid p-0">
+        <div class="swiper-slider marquee">
+            <div class="swiper-wrapper">
+                <!-- Slide1 -->
+                <div class="swiper-slide">
+                    <article class="pbmit-marquee-effect-style-1">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text="Cardiology">
+                                Cardiology
+                            </h2>
+                        </div>
+                    </article>
+                </div>
+                <!-- Slide2 -->
+                <div class="swiper-slide">
+                    <article class="pbmit-marquee-effect-style-1">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text="Neurosurgery">
+                                Neurosurgery
+                            </h2>
+                        </div>
+                    </article>
+                </div>
+                <!-- Slide3 -->
+                <div class="swiper-slide">
+                    <article class="pbmit-marquee-effect-style-1">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text="Orthopedics">
+                                Orthopedics
+                            </h2>
+                        </div>
+                    </article>
+                </div>
+                <!-- Slide4 -->
+                <div class="swiper-slide">
+                    <article class="pbmit-marquee-effect-style-1">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text="Oncology">
+                                Oncology
+                            </h2>
+                        </div>
+                    </article>
+                </div>
+                <!-- Slide5 -->
+                <div class="swiper-slide">
+                    <article class="pbmit-marquee-effect-style-1">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text="Geriatrics">
+                                Geriatrics
+                            </h2>
+                        </div>
+                    </article>
+                </div>
+                <!-- Slide6 -->
+                <div class="swiper-slide">
+                    <article class="pbmit-marquee-effect-style-1">
+                        <div class="pbmit-tag-wrapper">
+                            <h2 class="pbmit-element-title" data-text="Rehabilitation">
+                                Rehabilitation
+                            </h2>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Marquee End -->
 
 			<!-- Service Start --> 
 			<section class="pbmit-sticky-section section-xl">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12 col-lg-5 pbmit-sticky-col">
-							<div class="pbmit-ele-header-area">
-								<div class="pbmit-heading-subheading">
-									<h4 class="pbmit-subtitle">Motivation</h4>
-									<h2 class="pbmit-title">Department of a medical health care</h2>
-									<div class="pbmit-heading-desc">
-										The healthcare arena there was a felt need of developing new as well as upgrading the existing functioning and processes, consequently develop an institution supported with necessary
-									</div>
-								</div>
-								<a class="pbmit-btn" href="service-details.html">
-									<span class="pbmit-button-content-wrapper">
-										<span class="pbmit-button-icon pbmit-align-icon-right">
-											<svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
-												<title>black-arrow</title>
-												<path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-												<path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-												<path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
-											</svg>
-										</span>
-										<span class="pbmit-button-text">Read More</span>
-									</span>
-								</a>
-							</div>
-						</div>
+					<div class="col-md-12 col-lg-5 pbmit-sticky-col">
+    <div class="pbmit-ele-header-area">
+        <div class="pbmit-heading-subheading">
+            <h4 class="pbmit-subtitle">Motivation</h4>
+            <h2 class="pbmit-title">Advancing Medical Care for the Community</h2>
+            <div class="pbmit-heading-desc">
+                At MVR Multi Specialty Hospital, our goal is to continually enhance healthcare standards by upgrading facilities and improving processes. We are dedicated to building an institution that supports the evolving needs of the community, providing comprehensive medical services and innovative treatments to ensure quality healthcare for all.
+            </div>
+        </div>
+        <a class="pbmit-btn" href="service-details.html">
+            <span class="pbmit-button-content-wrapper">
+                <span class="pbmit-button-icon pbmit-align-icon-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22.76" height="22.76" viewBox="0 0 22.76 22.76">
+                        <title>black-arrow</title>
+                        <path d="M22.34,1A14.67,14.67,0,0,1,12,5.3,14.6,14.6,0,0,1,6.08,4.06,14.68,14.68,0,0,1,1.59,1" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                        <path d="M22.34,1a14.67,14.67,0,0,0,0,20.75" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                        <path d="M22.34,1,1,22.34" transform="translate(-0.29 -0.29)" fill="none" stroke="#000" stroke-width="2"></path>
+                    </svg>
+                </span>
+                <span class="pbmit-button-text">Read More</span>
+            </span>
+        </a>
+    </div>
+</div>
 						<div class="col-md-12 col-lg-7 pbmit-servicebox-right">
-							<article class="pbmit-service-style-4">
-								<div class="pbminfotech-post-item">
-									<div class="pbminfotech-box-content">
-										<div class="pbmit-box-content-wrap">
-											<div class="pbmit-featured-img-wrapper">
-												<div class="pbmit-featured-wrapper">
-													<img src="images/homepage-2/service/service-01.jpg" class="img-fluid" alt="">
-												</div>
-											</div>
-											<div class="pbmit-box-content-inner">
-												<div class="pbmit-content-inner-wrap">
-												<div class="pbmit-contant-box">
-													<div class="pbmit-serv-cat">
-														<a href="service-details.html" rel="tag">Dentist</a>
-													</div>
-													<h3 class="pbmit-service-title">
-														<a href="service-details.html">Dental Care</a>
-													</h3>
-												</div>
-												<div class="pbmit-service-icon">
-													<i class="pbmit-xcare-icon pbmit-xcare-icon-gesundheit-1"></i>					
-												</div>
-												</div>
-												<div class="pbmit-service-description">
-												The medical professional doctors available in the clinic					
-												</div>
-											</div>
-										</div>
-										<a class="pbmit-service-btn" href="service-details.html" title="Dental Care">
-											<span class="pbmit-button-icon-wrapper">
-												<span class="pbmit-button-icon">
-													<i class="pbmit-base-icon-black-arrow-1"></i>
-												</span>
-											</span>
-										</a>
-									</div>
-									<a class="pbmit-link" href="service-details.html"></a>
-								</div>
-							</article>
-							<article class="pbmit-service-style-4">
-								<div class="pbminfotech-post-item">
-									<div class="pbminfotech-box-content">
-										<div class="pbmit-box-content-wrap">
-											<div class="pbmit-featured-img-wrapper">
-												<div class="pbmit-featured-wrapper">
-													<img src="images/homepage-2/service/service-02.jpg" class="img-fluid" alt="">
-												</div>
-											</div>
-											<div class="pbmit-box-content-inner">
-												<div class="pbmit-content-inner-wrap">
-												<div class="pbmit-contant-box">
-													<div class="pbmit-serv-cat">
-														<a href="service-details.html" rel="tag">Barbiturates</a>
-													</div>
-													<h3 class="pbmit-service-title">
-														<a href="service-details.html">Pharmacology</a>
-													</h3>
-												</div>
-												<div class="pbmit-service-icon">
-													<i class="pbmit-xcare-icon pbmit-xcare-icon-pills"></i>					
-												</div>
-												</div>
-												<div class="pbmit-service-description">
-												The medical professional doctors available in the clinic					
-												</div>
-											</div>
-										</div>
-										<a class="pbmit-service-btn" href="service-details.html" title="Pharmacology">
-											<span class="pbmit-button-icon-wrapper">
-												<span class="pbmit-button-icon">
-													<i class="pbmit-base-icon-black-arrow-1"></i>
-												</span>
-											</span>
-										</a>
-									</div>
-									<a class="pbmit-link" href="service-details.html"></a>
-								</div>
-							</article>
-							<article class="pbmit-service-style-4">
-								<div class="pbminfotech-post-item">
-									<div class="pbminfotech-box-content">
-										<div class="pbmit-box-content-wrap">
-											<div class="pbmit-featured-img-wrapper">
-												<div class="pbmit-featured-wrapper">
-													<img src="images/homepage-2/service/service-03.jpg" class="img-fluid" alt="">
-												</div>
-											</div>
-											<div class="pbmit-box-content-inner">
-												<div class="pbmit-content-inner-wrap">
-												<div class="pbmit-contant-box">
-													<div class="pbmit-serv-cat">
-														<a href="service-details.html" rel="tag">Osteopaths</a>
-													</div>
-													<h3 class="pbmit-service-title">
-														<a href="service-details.html">Orthopedic</a>
-													</h3>
-												</div>
-												<div class="pbmit-service-icon">
-													<i class="pbmit-xcare-icon pbmit-xcare-icon-joint"></i>					
-												</div>
-												</div>
-												<div class="pbmit-service-description">
-												The medical professional doctors available in the clinic					
-												</div>
-											</div>
-										</div>
-										<a class="pbmit-service-btn" href="service-details.html" title="Dental Care">
-											<span class="pbmit-button-icon-wrapper">
-												<span class="pbmit-button-icon">
-													<i class="pbmit-base-icon-black-arrow-1"></i>
-												</span>
-											</span>
-										</a>
-									</div>
-									<a class="pbmit-link" href="service-details.html"></a>
-								</div>
-							</article>
-							<article class="pbmit-service-style-4">
-								<div class="pbminfotech-post-item">
-									<div class="pbminfotech-box-content">
-										<div class="pbmit-box-content-wrap">
-											<div class="pbmit-featured-img-wrapper">
-												<div class="pbmit-featured-wrapper">
-													<img src="images/homepage-2/service/service-04.jpg" class="img-fluid" alt="">
-												</div>
-											</div>
-											<div class="pbmit-box-content-inner">
-												<div class="pbmit-content-inner-wrap">
-												<div class="pbmit-contant-box">
-													<div class="pbmit-serv-cat">
-														<a href="service-details.html" rel="tag">Rhinoplasty</a>
-													</div>
-													<h3 class="pbmit-service-title">
-														<a href="service-details.html">Plastic Surgery</a>
-													</h3>
-												</div>
-												<div class="pbmit-service-icon">
-													<i class="pbmit-xcare-icon pbmit-xcare-icon-ppe"></i>					
-												</div>
-												</div>
-												<div class="pbmit-service-description">
-												The medical professional doctors available in the clinic					
-												</div>
-											</div>
-										</div>
-										<a class="pbmit-service-btn" href="service-details.html" title="Plastic Surgery">
-											<span class="pbmit-button-icon-wrapper">
-												<span class="pbmit-button-icon">
-													<i class="pbmit-base-icon-black-arrow-1"></i>
-												</span>
-											</span>
-										</a>
-									</div>
-									<a class="pbmit-link" href="service-details.html"></a>
-								</div>
-							</article>
-							<article class="pbmit-service-style-4">
-								<div class="pbminfotech-post-item">
-									<div class="pbminfotech-box-content">
-										<div class="pbmit-box-content-wrap">
-											<div class="pbmit-featured-img-wrapper">
-												<div class="pbmit-featured-wrapper">
-													<img src="images/homepage-2/service/service-05.jpg" class="img-fluid" alt="">
-												</div>
-											</div>
-											<div class="pbmit-box-content-inner">
-												<div class="pbmit-content-inner-wrap">
-												<div class="pbmit-contant-box">
-													<div class="pbmit-serv-cat">
-														<a href="service-details.html" rel="tag">Anaemia</a>
-													</div>
-													<h3 class="pbmit-service-title">
-														<a href="service-details.html">Hematology</a>
-													</h3>
-												</div>
-												<div class="pbmit-service-icon">
-													<i class="pbmit-xcare-icon pbmit-xcare-icon-chemistry-1"></i>					
-												</div>
-												</div>
-												<div class="pbmit-service-description">
-												The medical professional doctors available in the clinic					
-												</div>
-											</div>
-										</div>
-										<a class="pbmit-service-btn" href="service-details.html" title="Dental Care">
-											<span class="pbmit-button-icon-wrapper">
-												<span class="pbmit-button-icon">
-													<i class="pbmit-base-icon-black-arrow-1"></i>
-												</span>
-											</span>
-										</a>
-									</div>
-									<a class="pbmit-link" href="service-details.html"></a>
-								</div>
-							</article>
+						<article class="pbmit-service-style-4">
+    <div class="pbminfotech-post-item">
+        <div class="pbminfotech-box-content">
+            <div class="pbmit-box-content-wrap">
+                <div class="pbmit-featured-img-wrapper">
+                    <div class="pbmit-featured-wrapper">
+                        <img src="images/homepage-2/service/service-01.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="pbmit-box-content-inner">
+                    <div class="pbmit-content-inner-wrap">
+                        <div class="pbmit-contant-box">
+                            <div class="pbmit-serv-cat">
+                                <a href="service-details.html" rel="tag">Emergency Care</a>
+                            </div>
+                            <h3 class="pbmit-service-title">
+                                <a href="service-details.html">24/7 Emergency & Trauma Care</a>
+                            </h3>
+                        </div>
+                        <div class="pbmit-service-icon">
+                            <i class="pbmit-xcare-icon pbmit-xcare-icon-gesundheit-1"></i>                    
+                        </div>
+                    </div>
+                    <div class="pbmit-service-description">
+                        Round-the-clock emergency services to provide immediate medical attention for trauma and urgent care cases.
+                    </div>
+                </div>
+                <a class="pbmit-service-btn" href="service-details.html" title="Emergency Care">
+                    <span class="pbmit-button-icon-wrapper">
+                        <span class="pbmit-button-icon">
+                            <i class="pbmit-base-icon-black-arrow-1"></i>
+                        </span>
+                    </span>
+                </a>
+            </div>
+            <a class="pbmit-link" href="service-details.html"></a>
+        </div>
+    </div>
+</article>
+<article class="pbmit-service-style-4">
+    <div class="pbminfotech-post-item">
+        <div class="pbminfotech-box-content">
+            <div class="pbmit-box-content-wrap">
+                <div class="pbmit-featured-img-wrapper">
+                    <div class="pbmit-featured-wrapper">
+                        <img src="images/homepage-2/service/service-02.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="pbmit-box-content-inner">
+                    <div class="pbmit-content-inner-wrap">
+                        <div class="pbmit-contant-box">
+                            <div class="pbmit-serv-cat">
+                                <a href="service-details.html" rel="tag">Pharmacy</a>
+                            </div>
+                            <h3 class="pbmit-service-title">
+                                <a href="service-details.html">Pharmacy Services</a>
+                            </h3>
+                        </div>
+                        <div class="pbmit-service-icon">
+                            <i class="pbmit-xcare-icon pbmit-xcare-icon-pills"></i>                    
+                        </div>
+                    </div>
+                    <div class="pbmit-service-description">
+                        Full-service pharmacy providing prescription medications, consultations, and drug therapy management.
+                    </div>
+                </div>
+                <a class="pbmit-service-btn" href="service-details.html" title="Pharmacy Services">
+                    <span class="pbmit-button-icon-wrapper">
+                        <span class="pbmit-button-icon">
+                            <i class="pbmit-base-icon-black-arrow-1"></i>
+                        </span>
+                    </span>
+                </a>
+            </div>
+            <a class="pbmit-link" href="service-details.html"></a>
+        </div>
+    </div>
+</article>
+<article class="pbmit-service-style-4">
+    <div class="pbminfotech-post-item">
+        <div class="pbminfotech-box-content">
+            <div class="pbmit-box-content-wrap">
+                <div class="pbmit-featured-img-wrapper">
+                    <div class="pbmit-featured-wrapper">
+                        <img src="images/homepage-2/service/service-03.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="pbmit-box-content-inner">
+                    <div class="pbmit-content-inner-wrap">
+                        <div class="pbmit-contant-box">
+                            <div class="pbmit-serv-cat">
+                                <a href="service-details.html" rel="tag">Orthopedics</a>
+                            </div>
+                            <h3 class="pbmit-service-title">
+                                <a href="service-details.html">Orthopedic Care</a>
+                            </h3>
+                        </div>
+                        <div class="pbmit-service-icon">
+                            <i class="pbmit-xcare-icon pbmit-xcare-icon-joint"></i>                    
+                        </div>
+                    </div>
+                    <div class="pbmit-service-description">
+                        Specialized orthopedic treatments, including joint replacement, fracture management, and sports injury rehabilitation.
+                    </div>
+                </div>
+                <a class="pbmit-service-btn" href="service-details.html" title="Orthopedic Care">
+                    <span class="pbmit-button-icon-wrapper">
+                        <span class="pbmit-button-icon">
+                            <i class="pbmit-base-icon-black-arrow-1"></i>
+                        </span>
+                    </span>
+                </a>
+            </div>
+            <a class="pbmit-link" href="service-details.html"></a>
+        </div>
+    </div>
+</article>
+<article class="pbmit-service-style-4">
+    <div class="pbminfotech-post-item">
+        <div class="pbminfotech-box-content">
+            <div class="pbmit-box-content-wrap">
+                <div class="pbmit-featured-img-wrapper">
+                    <div class="pbmit-featured-wrapper">
+                        <img src="images/homepage-2/service/service-04.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="pbmit-box-content-inner">
+                    <div class="pbmit-content-inner-wrap">
+                        <div class="pbmit-contant-box">
+                            <div class="pbmit-serv-cat">
+                                <a href="service-details.html" rel="tag">Cosmetology</a>
+                            </div>
+                            <h3 class="pbmit-service-title">
+                                <a href="service-details.html">Cosmetic & Reconstructive Surgery</a>
+                            </h3>
+                        </div>
+                        <div class="pbmit-service-icon">
+                            <i class="pbmit-xcare-icon pbmit-xcare-icon-ppe"></i>                    
+                        </div>
+                    </div>
+                    <div class="pbmit-service-description">
+                        Offering a range of cosmetic and reconstructive procedures to enhance appearance and restore function.
+                    </div>
+                </div>
+                <a class="pbmit-service-btn" href="service-details.html" title="Cosmetic & Reconstructive Surgery">
+                    <span class="pbmit-button-icon-wrapper">
+                        <span class="pbmit-button-icon">
+                            <i class="pbmit-base-icon-black-arrow-1"></i>
+                        </span>
+                    </span>
+                </a>
+            </div>
+            <a class="pbmit-link" href="service-details.html"></a>
+        </div>
+    </div>
+</article>
+<article class="pbmit-service-style-4">
+    <div class="pbminfotech-post-item">
+        <div class="pbminfotech-box-content">
+            <div class="pbmit-box-content-wrap">
+                <div class="pbmit-featured-img-wrapper">
+                    <div class="pbmit-featured-wrapper">
+                        <img src="images/homepage-2/service/service-05.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="pbmit-box-content-inner">
+                    <div class="pbmit-content-inner-wrap">
+                        <div class="pbmit-contant-box">
+                            <div class="pbmit-serv-cat">
+                                <a href="service-details.html" rel="tag">Physiotherapy</a>
+                            </div>
+                            <h3 class="pbmit-service-title">
+                                <a href="service-details.html">Physiotherapy & Rehabilitation</a>
+                            </h3>
+                        </div>
+                        <div class="pbmit-service-icon">
+                            <i class="pbmit-xcare-icon pbmit-xcare-icon-chemistry-1"></i>                    
+                        </div>
+                    </div>
+                    <div class="pbmit-service-description">
+                        Comprehensive physiotherapy services to aid in recovery from injury, surgery, or chronic conditions.
+                    </div>
+                </div>
+                <a class="pbmit-service-btn" href="service-details.html" title="Physiotherapy & Rehabilitation">
+                    <span class="pbmit-button-icon-wrapper">
+                        <span class="pbmit-button-icon">
+                            <i class="pbmit-base-icon-black-arrow-1"></i>
+                        </span>
+                    </span>
+                </a>
+            </div>
+            <a class="pbmit-link" href="service-details.html"></a>
+        </div>
+    </div>
+</article>
 						</div>
 					</div>
 				</div>
@@ -912,258 +867,258 @@
 							</li>
 						</ul>
 						<div class="tab-content">
-							<div class="tab-pane show active" id="tab-2-1" role="tabpanel">
-								<div class="pbmit-column-inner">
-									<div class="row g-0 align-items-center">
-										<div class="col-md-12 col-xl-6 pbmit-tab-img">
-											<img src="images/homepage-2/tab-img-01.jpg" class="img-fluid" alt="">
-										</div>
-										<div class="col-md-12 col-xl-6 pbmit-tab-list">
-											<h2>We are here to hear and heal your</h2>	
-											<div>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even. Quis ipsum suspendisse ultrices gravida risus commodo viverra maecenas accumsan lacus vel facilisis.</div>
-											<ul class="list-group list-group-borderless">
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">COVID-19 Assistance</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Comprehensive Inpatient</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Homeowners Insurance</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Medical And Surgical Services</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Insurance 101</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Specialised Support Service</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Resources Overview</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Instant Operation & Appointment</span>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane" id="tab-2-2" role="tabpanel">
-								<div class="pbmit-column-inner">
-									<div class="row g-0 align-items-center">
-										<div class="col-md-12 col-xl-6 pbmit-tab-img">
-											<img src="images/homepage-2/tab-img-02.jpg" class="img-fluid" alt="">
-										</div>
-										<div class="col-md-12 col-xl-6 pbmit-tab-list">
-											<h2>Treatment patients in primary care</h2>	
-											<div>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even. Quis ipsum suspendisse ultrices gravida risus commodo viverra maecenas accumsan lacus vel facilisis.</div>
-											<ul class="list-group list-group-borderless">
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">COVID-19 Assistance</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Comprehensive Inpatient</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Homeowners Insurance</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Medical And Surgical Services</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Insurance 101</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Specialised Support Service</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Resources Overview</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Instant Operation & Appointment</span>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane" id="tab-2-3" role="tabpanel">
-								<div class="pbmit-column-inner">
-									<div class="row g-0 align-items-center">
-										<div class="col-md-12 col-xl-6 pbmit-tab-img">
-											<img src="images/homepage-2/tab-img-03.jpg" class="img-fluid" alt="">
-										</div>
-										<div class="col-md-12 col-xl-6 pbmit-tab-list">
-											<h2>Accreditation within a given specialty</h2>	
-											<div>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even. Quis ipsum suspendisse ultrices gravida risus commodo viverra maecenas accumsan lacus vel facilisis.</div>
-											<ul class="list-group list-group-borderless">
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">COVID-19 Assistance</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Comprehensive Inpatient</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Homeowners Insurance</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Medical And Surgical Services</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Insurance 101</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Specialised Support Service</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Resources Overview</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Instant Operation & Appointment</span>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane" id="tab-2-4" role="tabpanel">
-								<div class="pbmit-column-inner">
-									<div class="row g-0 align-items-center">
-										<div class="col-md-12 col-xl-6 pbmit-tab-img">
-											<img src="images/homepage-2/tab-img-04.jpg" class="img-fluid" alt="">
-										</div>
-										<div class="col-md-12 col-xl-6 pbmit-tab-list">
-											<h2>Better Health While Aging health</h2>	
-											<div>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even. Quis ipsum suspendisse ultrices gravida risus commodo viverra maecenas accumsan lacus vel facilisis.</div>
-											<ul class="list-group list-group-borderless">
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">COVID-19 Assistance</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Comprehensive Inpatient</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Homeowners Insurance</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Medical And Surgical Services</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Insurance 101</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Specialised Support Service</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Resources Overview</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="ti-check"></i>
-													</span>
-													<span class="pbmit-icon-list-text">Instant Operation & Appointment</span>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
+						<div class="tab-pane show active" id="tab-2-1" role="tabpanel">
+    <div class="pbmit-column-inner">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-12 col-xl-6 pbmit-tab-img">
+                <img src="images/homepage-2/tab-img-01.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-12 col-xl-6 pbmit-tab-list">
+                <h2>We Are Here to Hear and Heal You</h2>    
+                <div>MVR Multi Specialty Hospital is dedicated to providing comprehensive healthcare services with a compassionate approach. Our team of medical professionals is equipped to address various health conditions, ensuring quality care for all patients.</div>
+                <ul class="list-group list-group-borderless">
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">24/7 Emergency & Trauma Care</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Comprehensive Inpatient Services</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Medical and Surgical Services</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Specialized Support for Neurology and Cardiology</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Physiotherapy & Rehabilitation Services</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Oncology Care Clinic</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Fertility & Reproductive Health Services</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Instant Appointment Scheduling</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tab-pane" id="tab-2-2" role="tabpanel">
+    <div class="pbmit-column-inner">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-12 col-xl-6 pbmit-tab-img">
+                <img src="images/homepage-2/tab-img-02.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-12 col-xl-6 pbmit-tab-list">
+                <h2>Achieving Success in Patient Care</h2>    
+                <div>MVR Multi Specialty Hospital is committed to delivering successful treatment outcomes through comprehensive care, state-of-the-art facilities, and a dedicated medical team. We aim to improve the quality of life for our patients with tailored healthcare solutions.</div>
+                <ul class="list-group list-group-borderless">
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Advanced Medical and Surgical Services</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Comprehensive Inpatient and Outpatient Care</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">24/7 Emergency Response and Trauma Care</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Specialized Support for Neurology and Oncology</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Sports Injury Clinic and Rehabilitation</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Geriatric and Palliative Care Services</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Instant Appointment Scheduling and Consultations</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Comprehensive Diagnostic and Imaging Services</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tab-pane" id="tab-2-3" role="tabpanel">
+    <div class="pbmit-column-inner">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-12 col-xl-6 pbmit-tab-img">
+                <img src="images/homepage-2/tab-img-03.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-12 col-xl-6 pbmit-tab-list">
+                <h2>Certified Specialists Across Multiple Disciplines</h2>    
+                <div>MVR Multi Specialty Hospital is home to highly qualified and certified doctors who specialize in a wide range of medical fields. Our team is dedicated to providing exceptional care, backed by accreditation and continuous professional development.</div>
+                <ul class="list-group list-group-borderless">
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Board-Certified Cardiologists</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Experienced Neurologists and Neurosurgeons</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Orthopedic Surgeons Specializing in Joint Replacement</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Certified Oncologists for Comprehensive Cancer Care</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Geriatric Specialists Focused on Elderly Care</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Cosmetologists for Reconstructive and Aesthetic Surgery</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Fertility Experts for Reproductive Health</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Certified Physiotherapists and Rehabilitation Experts</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="tab-pane" id="tab-2-4" role="tabpanel">
+    <div class="pbmit-column-inner">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-12 col-xl-6 pbmit-tab-img">
+                <img src="images/homepage-2/tab-img-04.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-12 col-xl-6 pbmit-tab-list">
+                <h2>Expert Medical Advice for Better Health</h2>    
+                <div>At MVR Multi Specialty Hospital, we are committed to providing comprehensive medical advice and support to help patients achieve better health. Our team of experts offers guidance on managing chronic conditions, preventive care, and specialized treatments for a wide range of health concerns.</div>
+                <ul class="list-group list-group-borderless">
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Preventive Health Screenings</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Chronic Disease Management</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Geriatric and Elderly Care</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Nutrition and Lifestyle Counseling</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Cardiac and Diabetes Care</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Women's Health and Fertility Advice</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Specialized Support for Neurological Conditions</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="pbmit-icon-list-icon">
+                            <i aria-hidden="true" class="ti-check"></i>
+                        </span>
+                        <span class="pbmit-icon-list-text">Instant Access to Medical Consultations</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 						</div>
 					</div>
 				</div>
@@ -1171,7 +1126,7 @@
 			<!-- Tab End -->
 
 			<!-- Timetable Start --> 
-			<section class="section-lgt timetable_section">
+			<!-- <section class="section-lgt timetable_section">
 				<div class="container">
 					<div class="pbmit-heading-subheading animation-style2">
 						<h4 class="pbmit-subtitle">Timetable</h4>
@@ -2366,7 +2321,7 @@
 					</div>
 				</div>
 			</section>
-			<!-- Timetable End --> 
+			Timetable End  -->
 			
 			<!-- Portfolio Start -->
 			<section class="section-lgt portfolio_two">
